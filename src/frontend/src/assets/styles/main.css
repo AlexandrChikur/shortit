@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background: #EEF0F2;
+    overflow: hidden;
+}
+
+a {
+    color: #5595E9;
+    text-decoration: none;
+}
+
+.df {
+    display: flex;
+}
+
+.show {
+    display: block;
+}
+
+
+
+/* ---------------------------------- */
+
+#app {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* --------------- 404 ------------------- */
+
+.not-found-page{
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.not-found-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.not-found-info {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -77px;
+}
+
+.not-found-title {
+    font-size: 40px;
+    font-weight: 400
+}
+
+.not-found-msg {
+    font-size: 17px;
+}
+
+.logo-container {
+    height: 120px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------- */
+
+.header-cls {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 760px;
+    height: 145px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0C51AC;
+}
+
+/*  ------------------ MAIN -----------------   */
+
+.form-shortener-container {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 330px;
+}
+
+.form-shortener-url-input, .form-shortener-url-button {
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.form-shortener-url-input {
+    width: 452px;
+    color: #3B3B3B;
+    line-height: 45px;
+    border: 1px solid #DEDEDF;
+}
+
+.form-shortener-url-input::placeholder {
+    font-size: 12px;
+    color: #DDDDDD;
+}
+
+.form-shortener-url-button {
+    color: #fff;
+    background: #2185D0;
+    padding: 14px 45px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.alert-msg {
+    margin-top: 10px;
+    width: 634px;
+    justify-content: flex-start;
+    color: #C72767;
+    font-size: 12px;
+}
+
+.slogan-container {
+    font-size: 71px;
+    color: #3B3B3B;
+    margin-bottom: 25px;
+}
+
+/* ------------- FOOTER ----------------- */
+
+.url-inspection-container {
+    position: absolute;
+    /*bottom: -307px;*/
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 636px;
+    height: 368px;
+    background: #ffffff;
+
+    border-radius: 6px 6px 0px 0px;
+    border: 1px solid #DEDEDF;
+    cursor: pointer;
+}
+
+.url-inspection-container .header {
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.url-inspection-container .header * {
+    padding: 0 34px;
+}
+
+.times-redirections {
+    font-size: 14px;
+}
+
+.url-inspection-container .form {
+    justify-content: center;
+}
+
+.inspect-input, .inspect-button {
+    height: 32px;
+}
+
+.inspect-input {
+    color: #ffffff;
+    width: 460px;
+    background: #9A9A9A;
+}
+
+.inspect-input::placeholder {
+    color: #B3B3B3;
+}
+
+.inspection-error {
+    margin-left: 34px;
+}
+
+.inspect-button {
+    margin-left: 6px;
+    height: 34px;
+    width: 80px;
+    padding: 0 8px;
+}
+
+.url-inspection-container .output {
+    justify-content: center;
+    align-items: center;
+    background: #E9E9E9;
+    position: relative;
+    margin: 13px auto;
+    border-radius: 4px;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 568px;
+    height: 229px;
+}
+
+.url-inspection-container .output ul {
+    position: absolute;
+    top: 0;
+}
+
+.url-inspection-container .output ul li {
+    border-radius: 3px;
+    font-size: 11px;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    background: #606060;
+    margin: 11px 18px;
+    padding: 0 18px;
+    width: 481px;
+    height: 38px;
+}
+
+/* ------------- FOOTER ----------------- */
+
+
+
+
+
+
