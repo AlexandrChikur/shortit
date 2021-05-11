@@ -26,8 +26,6 @@ jar {
 	}
 }
 
-
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
@@ -37,8 +35,13 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'commons-validator:commons-validator:1.7'
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
 }
 
-//test {
-//	useJUnitPlatform()
-//}
+test {
+	useJUnitPlatform()
+}
+
+test.enabled(false)
