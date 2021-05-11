@@ -23,4 +23,4 @@ And finally, run database on `DB_HOST`:`DB_PORT` that you just changed.
 
 <!-- Links -->
 
-[logo]: https://i.imgur.com/QUgoWZ9.png
+[logo]: https://i.imgur.com/vScFb96.png
